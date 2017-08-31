@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://unpkg.com/basscss@8.0.2/css/basscss.min.css');
+@import url('https://unpkg.com/basscss-colors@2.2.0/index.css');
+
+:root {
+  --header-height: 70px;
+  --header-bg-color: black;
+  --header-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: var(--header-bg-color);
+  min-height: var(--header-height);
+  color: var(--header-color);
+}
+
+footer {
+  background-color: #D93A33;
+  color: white;
+}
+
+.community--logo {
+  width: 12rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.community--calendar {
+  width: 100%;
+}
+
+.mozilla--title {
+  background-color: black;
+  color: white;
+  padding: 0.2rem;
+  display: inline-block;
+}

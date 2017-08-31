@@ -1,52 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>
-            Berlin Mozilla Community
-        </title>
-        <style>
-         @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-         body {
-             margin: 0;
-             width: 100%;
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             color: white;
-             background-color: black;
-             flex-direction: column;
-             font-family: 'Open Sans', sans-serif;
-         }
-         h1 {
-             font-size: 3rem;
-         }
-         h2 {
-             font-size: 2rem;
-         }
-         img {
-             width: 50vh;
-         }
-
-         a {
-             color: white;
-             font-style: italic;
-         }
-        </style>
-    </head>
-    <body>
-        <h1>coming soon …</h1>
-        <a href="https://www.meetup.com/Berlin-Mozilla-Meetup/">
-            <img src="berlin_logo_community_space.png" alt="Berlin Mozilla Community space logo">
-        </a>
-        <span>
-            <strong>Berlin Mozilla Community Space</strong><br>
-            GSG-Hof Schlesische Straße Gebäude 3, 4th floor<br>
-            Schlesische Straße 27<br>
-            10997 Berlin (<a href=" http://www.openstreetmap.org/node/4996803917">map</a>)
-        </span>
-
-        <h2>calendar of events:</h2>
-        <iframe src="https://calendar.google.com/calendar/embed?showCalendars=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=pdbuh2radv9coblu6o4rmob8kk%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=Europe%2FBerlin" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Mozilla Berlin Community</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <header class="clearfix">
+      <div class="max-width-4 mx-auto">
+        <h2 class="h2 left-align white">Mozilla Berlin</h2>
+      </div>
+    </header>
+    <main class="max-width-4 mx-auto py4 px2">
+      <div class="max-width-1 mx-auto">
+        <img class="community--logo" src="berlin_logo_community_space.png" alt="Berlin Mozilla Community space logo">
+        <h2 class="center">Berlin <span class="mozilla--title">moz://a</span> Community Space</h2>
+        <p class="center">GSG-Hof Schlesische Straße Gebäude 3, 4th floor<br> Schlesische Straße 27<br> 10997 Berlin</p>
+      </div>
+      <h2 class="mozilla--title">Calendar</h2>
+      <iframe class="block mx-auto community--calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;showPrint=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=pdbuh2radv9coblu6o4rmob8kk%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=Europe%2FBerlin" style="border-width:0" height="600" frameborder="0" scrolling="no"></iframe>
+    </main>
+    <footer>
+      <div class="max-width-4 mx-auto clearfix">
+        <div class="sm-col sm-col-4">
+          <h4>Berlin <span class="mozilla--title">moz://a</span> Community Space</h4>
+        </div>
+        <div class="sm-col sm-col-8">
+          <h5 class="right-align">GSG-Hof Schlesische Straße Gebäude 3, 4th floor <br/> Schlesische Straße 27<br> 10997 Berlin</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
